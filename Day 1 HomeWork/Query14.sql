@@ -1,0 +1,5 @@
+SELECT DISTINCT(COLOR) 
+FROM Production.Product
+WHERE Color Is NOT NULL
+ORDER BY color DESC
+ 
