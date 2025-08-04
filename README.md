@@ -1,1 +1,1 @@
-                                                                                              HOMEWORK FOR ANTRA
+                                HOMEWORK FOR ANTRA
