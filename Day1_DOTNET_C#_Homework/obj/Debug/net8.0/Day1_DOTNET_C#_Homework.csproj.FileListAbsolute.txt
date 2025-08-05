@@ -1,0 +1,15 @@
+C:\AntraHomework\Day1_DOTNET_C#_Homework\bin\Debug\net8.0\Day1_DOTNET_C#_Homework.exe
+C:\AntraHomework\Day1_DOTNET_C#_Homework\bin\Debug\net8.0\Day1_DOTNET_C#_Homework.deps.json
+C:\AntraHomework\Day1_DOTNET_C#_Homework\bin\Debug\net8.0\Day1_DOTNET_C#_Homework.runtimeconfig.json
+C:\AntraHomework\Day1_DOTNET_C#_Homework\bin\Debug\net8.0\Day1_DOTNET_C#_Homework.dll
+C:\AntraHomework\Day1_DOTNET_C#_Homework\bin\Debug\net8.0\Day1_DOTNET_C#_Homework.pdb
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.AssemblyInfoInputs.cache
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.AssemblyInfo.cs
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.csproj.CoreCompileInputs.cache
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.sourcelink.json
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.dll
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\refint\Day1_DOTNET_C#_Homework.dll
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.pdb
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\Day1_DOTNET_C#_Homework.genruntimeconfig.cache
+C:\AntraHomework\Day1_DOTNET_C#_Homework\obj\Debug\net8.0\ref\Day1_DOTNET_C#_Homework.dll

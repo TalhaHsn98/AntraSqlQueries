@@ -1,0 +1,15 @@
+C:\AntraHomework\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.exe
+C:\AntraHomework\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.deps.json
+C:\AntraHomework\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.runtimeconfig.json
+C:\AntraHomework\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.dll
+C:\AntraHomework\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.pdb
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.AssemblyInfoInputs.cache
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.AssemblyInfo.cs
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.csproj.CoreCompileInputs.cache
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.sourcelink.json
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.dll
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\refint\02UnderstandingTypes.dll
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.pdb
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.genruntimeconfig.cache
+C:\AntraHomework\02UnderstandingTypes\obj\Debug\net8.0\ref\02UnderstandingTypes.dll

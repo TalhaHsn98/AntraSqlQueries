@@ -1,0 +1,146 @@
+﻿Question 1:
+What type would you use for the following numbers:
+
+a) A person's telephone Number
+We can use integer but since it might also have specail charaters like +,-,()
+Its more appropriate to use a string.
+
+b) A person's height
+Float
+
+c) A Person's age
+byte or int(more often used in projects)
+
+d) A Person's Gender
+enum
+
+f) A Person's Salary
+decimal
+
+g) A book's ISBN
+string
+
+h) A book's price
+decimal
+
+I) A book's shipping weight
+float
+
+J) A country's population
+long
+
+k) Number of stars
+long wont be able to represent as the number of stars exceeds the range.
+System.Numerics has a type BigInteger that can be used to represent the no. of stars.
+
+L) Number of employees (up to 50000)
+int
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+Question 2
+Value type/reference type and boxing/unboxing
+
+a) Value type and reference type
+Value type variables like int, float, bool, struct are stored on the stack.
+The reference type variables memory location is stored on the stack, but the 
+actual value is stored on the heap, examples objects/classes/delegate/interface.
+
+Value type is default passing type in c# wehre we just pass a copy of the acutal
+value, where as we pass the memory location in case of pass by reference that will
+change the actual value of the object. 
+
+Value type can not be null unless made nullable by adding '?'. Reference type
+can be null.
+
+b) Boxing and Unboxing
+
+Boxing refers to changing the value type to reference type, like int to object.
+Unboxing refers to changing the type to its original type like object to int.
+
+Unboxing requires an explicit cast like (int)obj. Boxing is implicit.
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+Question 3
+Managed and unmanaged Resources 
+
+The Managed resources are those which are handled by the garbage collector, GC 
+automatically deallocates memory when the managed resources like strings/list/class
+objects are no longer used.
+
+The unmanaged resources are those out of control of the .NET runtime CLR
+Some of the examples are File handles, Database connections, Network Sockets
+They are not cleaned up by the Garbage Collector, we need to clean them up 
+using Dispose() method/ using statement/ finalizers.
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+Question 4
+Garbage Collector Purpose
+
+The Garbage collector is present to automatically manage memory by reclaiming the memory 
+occupied by the managed resources like objects when they are no longer referenced
+or used.
+
+This optimizes the application performance and prevents memeory issues.
+
+GC have three different generations Gen0, Gen1, Gen2. Gen0 is for short lived objects
+Gen1 is medium lived objects (more like a buffer between Gen0 and Gen2). Gen 2 is for the 
+Long lived objects like static data.
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+Test YOUR Knowledge:
+
+1) Question int Divide by Zero
+
+int a = 10;
+int b = a / 0;
+
+Console.WriteLine($"{b}");
+
+Ans: Divide by zero exception: attempt to divide by zero
+
+2) Double divide by zero  i am getting infinity
+
+3) When you overflow an int varialbe it just goes to the other
+end like for example int.maxvalue+1 will become int.minvalue
+
+4) y++ is a post increment, meaning it assigns the value then 
+it increments.
+++y is a pre increment meaning it will increment first before 
+assigning the value to any other varialbe.
+
+5) Continue will continue the loop and wont execute the next steps
+meaning it will go and increment itself instead of executing the rest
+of the loop at that point.
+
+Break will break out of the loop to go to the next statements.
+
+return it ends the method so the loop wont complete if in the middle
+we return it will break out and end the loop as well.
+
+6) The three parts of a for loop are initialization, condition and increment
+or update
+So nothing is mandatory among these but the mandatory are the semicolons
+;; we need to add the two semicolons doesn't matter if we are adding anything 
+or not..
+
+7) '=' is an assigning operator it assigns the value on the right to the left
+	'==' is an equality checker it return true or false based on the 
+	result.
+
+8) Yes for(;true;); just runs and in a infinite loop. 
+
+9) _ is like a default switch case, if the input does not match anty case
+then we use _ like a backup output
+
+10) IEnumerable is the interface to be implemented by an object so it can be
+used in a foreach loop
