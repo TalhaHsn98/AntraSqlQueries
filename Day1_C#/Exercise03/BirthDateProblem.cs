@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exercise03
 {
-    internal class BirthDateProblem
+    public class BirthDateProblem
     {
+        //Add some code
     }
 }
