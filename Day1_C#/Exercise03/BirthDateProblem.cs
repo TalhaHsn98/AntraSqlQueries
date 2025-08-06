@@ -21,9 +21,9 @@ namespace Exercise03
             int DaysToNext27thAnniversary = 9862 - (ageindays % 9862);
 
             DateTime exactDate = DateTime.Now;
-                
+            Console.WriteLine($"Your age in days: {ageindays}, Your days to next anniversary: {DaysToNext27thAnniversary}");
             exactDate = exactDate.AddDays(DaysToNext27thAnniversary);
-            Console.WriteLine(exactDate);
+            Console.WriteLine($"Your next anniversary date{ exactDate}");
         }
 
     }
