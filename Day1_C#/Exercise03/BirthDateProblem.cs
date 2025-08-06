@@ -23,7 +23,7 @@ namespace Exercise03
             DateTime exactDate = DateTime.Now;
             Console.WriteLine($"Your age in days: {ageindays}, Your days to next anniversary: {DaysToNext27thAnniversary}");
             exactDate = exactDate.AddDays(DaysToNext27thAnniversary);
-            Console.WriteLine($"Your next anniversary date{ exactDate}");
+            Console.WriteLine($"Your next anniversary date: {exactDate}");
         }
 
     }
