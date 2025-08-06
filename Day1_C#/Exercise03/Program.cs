@@ -9,26 +9,6 @@ Console.WriteLine("Hello, World!");
 
 fizzBuzz.Fizzbuzz(1000);*/
 
-// The example code
-/*int max = 500;
-
-for(byte i = 0; i < max; i++)
-{
-    WriteLine(i);
-}*/
-
-//Answer this goes in infinite loop we can add a checked block if it overflows then we will get an error
-//stating System.OverflowException
-
-/*int max = 500;
-
-checked
-{
-    for (byte i = 0; i < max; i++)
-    {
-        WriteLine(i);
-    }
-}*/
 
 
 
@@ -42,7 +22,22 @@ random.Random();*/
 
 //Calling the print a pyramid class
 
+/*
 Print_a_Pyramid obj =  new Print_a_Pyramid();
 
-obj.Print_Pyramid(20);
+obj.Print_Pyramid(20); */
 
+
+
+/*
+CountUpTo24 obj = new CountUpTo24();
+
+obj.count();
+*/
+
+Greeting_Time_Of_Day obj = new Greeting_Time_Of_Day();
+obj.Greeting();
+
+BirthDateProblem obj3 =  new BirthDateProblem();
+
+obj3.BirthDate();
