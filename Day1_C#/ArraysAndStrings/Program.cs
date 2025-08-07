@@ -24,5 +24,5 @@ Console.WriteLine("Hello, World!");
 
 //String3_Palindrome.FindPalindromes();
 
-string2_sentence.ReverseWords();
+//string2_sentence.ReverseWords();
 //String4_URL.ParseUrl();
