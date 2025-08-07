@@ -1,0 +1,168 @@
+﻿Test Your Knowledge
+===================
+
+1)Access Modifiers
+Answer:
+Public, Private, Protected, internal, Protected Internal, Private Protected
+
+Public: 
+No Restriction Acceessible from anywhere, given we are referencing them if accessing from a different Project.
+
+Private:
+Acessible within the same class only
+
+Protected:
+With in the same class and its child classes
+
+Internal:
+With in the same dll or assembly
+
+Protected Internal:
+Accessible either from the derived/child classes or with in the same assembly
+
+Private Protected:
+Derived classes only or same assembly
+
+==============================================================================================================
+
+2)static, Const and readonly
+
+Static Belongs to the class itself, not to any instance. Can be changed anytime.
+
+Constant is immutable and it known at compile time, its value is fixed in code and cannot be modified at runtime.
+
+Readonly Value is set at the runtime, mostly through the constructor. It can be set only onetime. so immutable
+after it is set.
+
+==============================================================================================================
+
+3)Constructor
+
+A cosntructor has the same class name, it is initialized when an object is created. It sets up the setup logic or
+sets up some default values. (Like for example when we are performing dependency Injection).
+
+==============================================================================================================
+
+4)Partial Keyword
+
+The partial keyword allows the class, struct or method to be split accross multiple files. It makes easier to organize
+code, especially in large projects when multiple developers are working on a same thing.
+
+==============================================================================================================
+
+5) Tuple
+
+A tuple is a data structure that can hold multiple types in a single object. For example (int, string) user = (1, "Talha");
+
+==============================================================================================================
+
+6) C# record keyword
+
+Record is a reference type that provides built in immutability and value based equality it is ideal for storing 
+data models like DTO. so it overrides the equals() operator so we can compare it like a value type.
+
+==============================================================================================================
+
+7) Overloading and overriding
+
+Overloading is defining multiple methods with the same name but with differenct parameters. It is also know as 
+compile time/ static polymorphism. 
+
+Overriding is when we redefine a base class in the derived classes. It is also called as runtime/dynamic polymorphism.
+
+
+==============================================================================================================
+
+8) field and property
+
+Both are members of a class, field can be accessed directly and can be changed if it is ppublic.
+Property is a way to expose a field where encapsulation comes into picture, we use get and set to retreive or set its 
+values. We should use fields only inside the class, like a private use. We can expose properties through validation and
+security checks using the getter/setter.
+
+==============================================================================================================
+
+9)Optional parameter in Method.
+
+First of all it should be the last parameter if we are having optional parameters. 
+The parameter has a default value, that is if the caller of method doesn't provide the value the default value
+will be used, incase if the caller provides a value for that parameter then it overrides the optional default parameter.
+
+We can have multiple optional parameters.
+
+==============================================================================================================
+
+10) Interface and Abstract
+
+Interface is a contract, it only declares the members and no implementation of the members. The methods are implemented
+only in the classes which are inheriting from the Interface. 
+Interface allows multiple Inheritance but classes dont in c#.
+
+Abstract classes can have both implemented and unimplemented methods, it can be useful when there is a base functionality 
+that is similar and is useful in multiple classes inheriting this abstract.
+Abstract keyword is used if we are not implementing anything and just declaring the method.
+But we use Virtual keyword when we have an implementation but that also can be overriden in the derived classes.
+
+==============================================================================================================
+
+11) Members of an interface are implicitly public by default. We cannot assign any other modifier to members in interface.
+
+==============================================================================================================
+12) True, we can have runtime/dynamic polymorphism and it is done using the override keyword in the derived classes.
+
+==============================================================================================================
+
+13) True, we use the override keyword in the derived classes to provide an implementation of it's own.
+
+==============================================================================================================
+
+14) True, But we dont achieve the polymorpishm instead we hide the base class implementation. Meaning if we create an object 
+of type base class then the base class implementation will be executed. But if we declare a derived class type and create an
+instance then we get the new implementation of the method (i.e. We hide the base class implementation). In override we implement
+polymorpishm and change the implementation but that's not the case with new, we are just hiding the implementation of the base
+class.
+
+THE most important thing is that the base class, if a method is to be overriden then it HAS to be virtual/abstract. Only then
+we can override a method in base class. But some times it happens that we need our own implementation but the base class is not
+virtual/abstract, and we need a new implementation in the derived class so we use the method hiding.
+
+==============================================================================================================
+
+15) False, A normal class has to override all the abstract methods, a non abstract class cannot have non abstract methods.
+Only an abstract clss is allowed to have abstract methods.
+
+==============================================================================================================
+
+16) True, An abstract class can have both abstract and non abstract methods.
+
+==============================================================================================================
+
+17) True, Derived classes can override the methods that were virtual in the base class.
+
+==============================================================================================================
+
+18) True, Derived classes actually MUST override the abstract methods in the base class.
+
+==============================================================================================================
+
+19) False, No we cannot override the method in base class if the method was neither abstract or virtual.
+
+==============================================================================================================
+
+20) False, The class that implements the interface must Provide an implementation for all the members of 
+the interface.
+
+==============================================================================================================
+
+21) True, A class that implements an interface can have other members that aren't defined in the interface
+
+==============================================================================================================
+
+22) False, we do not have multiple inheritance in C#, so only one base class when inheriting
+
+==============================================================================================================
+
+
+23) True, A class can have multiple inheritance when it comes to interfaces, interfaces allow multiple inheritance.
+
+==============================================================================================================
