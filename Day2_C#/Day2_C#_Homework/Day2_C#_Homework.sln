@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_C#_Homework", "Day2_C#_Homework\Day2_C#_Homework.csproj", "{7EBF9AA6-41E4-4BD9-AE5D-F1B61E4F4A69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_C#_Homework", "Day2_C#_Homework.csproj", "{79C0D911-F729-38F3-AE2C-B7BD17CD4EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_UsingOOPS", "..\Classes_UsingOOPS\Classes_UsingOOPS.csproj", "{0B75B144-13B3-4D7E-8EFE-149F22D26A21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7EBF9AA6-41E4-4BD9-AE5D-F1B61E4F4A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EBF9AA6-41E4-4BD9-AE5D-F1B61E4F4A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EBF9AA6-41E4-4BD9-AE5D-F1B61E4F4A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EBF9AA6-41E4-4BD9-AE5D-F1B61E4F4A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C0D911-F729-38F3-AE2C-B7BD17CD4EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C0D911-F729-38F3-AE2C-B7BD17CD4EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C0D911-F729-38F3-AE2C-B7BD17CD4EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C0D911-F729-38F3-AE2C-B7BD17CD4EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B75B144-13B3-4D7E-8EFE-149F22D26A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B75B144-13B3-4D7E-8EFE-149F22D26A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B75B144-13B3-4D7E-8EFE-149F22D26A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B75B144-13B3-4D7E-8EFE-149F22D26A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
